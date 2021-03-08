@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	
+	<style>
+		.pic {
+			width: 100%;
+		}
+		
+	
+			body {
+				padding-top: 70px;
+				padding-bottom: 70px;
+			}
+			.starter-template {
+				padding: 40px 15px;
+				text-align: center;
+			}
+			
+			.address {
+				background: #efb73e;
+				color: #fff;
+				padding: 10px 0;
+			}
+			.navbar-nav li:hover {
+				background: #DDDDDD;
+			}
+			.navbar-nav li:nth-of-type(4) {
+				background: #DDDDDD;
+			}
+	</style>
+	
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">刘升IT创意</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="">
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="study .html">学无止境</a>
+						</li>
+						<li>
+							<a href="chengxu life.html">程序人生</a>
+						</li>
+						<li>
+							<a href="about.html">关于我</a>
+						</li>
+						<li>
+							<a href="zuo ping.html">网页作品</a>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">
+								知识库<span class="caret"></span> 
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="#">Java</a>
+								</li>
+								<li>
+									<a href="#">C++</a>
+								</li>
+								<li>
+									<a href="#">PHP</a>
+								</li>
+								<li>
+									<a href="#">JavaScript</a>
+								</li>
+								<li>
+									<a href="#">JQuery</a>
+								</li>
+								<li>
+									<a href="#">Html5</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<div  class="navbar-right">
+						<form class="navbar-form navbar-left" role="search">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="搜索...">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button">
+										Go
+									</button> </span>
+							</div>
+						</form>
+						<form class="navbar-form navbar-left" >
+							<div class="input-group">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button">
+										登录
+									</button> </span>
+							</div>
+						</form>
+						<form class="navbar-form navbar-left">
+							<div class="input-group">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button">
+										注冊
+									</button> </span>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<div class="container">
+		   <div class="row">
+			<div class="col-md-3">
+				<!--个人信息面板-->
+				<div class="panel panel-default">
+					<div class="panel-heading">个人信息</div>
+					<div class="panel-body">
+						<img alt="pic" class="img-responsive img-rounded img-thumbnail pic" src="img/wo.png"/>
+						<p class="text-center text-primary">吴老板</p>
+						<address>
+							<span class="glyphicon glyphicon-home">
+								<code>南阳市</code>
+							</span><br />
+							
+							<span class="glyphicon glyphicon-file">
+								<abbr title="PostalCode">邮政编码</abbr><kbd>432100</kbd>
+							</span>
+							
+							<span class="glyphicon glyphicon-phone-alt" title="联系电话">
+								<abbr title="phone">联系电话</abbr>15427271616
+							</span><br />
+							<span class="glyphicon glyphicon-envelope"><a href="www.qq.com">1763648429@qq.com</a></span>
+						</address>
+					</div>
+				</div>	
+				<!--个人技能面板-->
+				<div class="panel panel-info">
+					<div class="panel-heading">个人技能</div>
+					<div class="panel-body">
+						<!--HTML5技能-->
+						<div class="row">
+							<div class="col-md-3">
+								<span class="text-muted">HTML5</span>
+							</div>
+							<div class="col-md-9">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped active" style="width: 65%;"></div>
+								</div>
+							</div>
+						</div>
+						<!--CSS技能-->
+						<div class="row">
+							<div class="col-md-3">
+								<span class="text-muted">CSS</span>
+							</div>
+							<div class="col-md-9">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped active" style="width: 60%;"></div>
+								</div>
+							</div>
+						</div>
+						<!--JS技能-->
+						<div class="row">
+							<div class="col-md-3">
+								<span class="text-muted">JS</span>
+							</div>
+							<div class="col-md-9">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped active" style="width: 55%;"></div>
+								</div>
+							</div>
+						</div>
+						<!--Pr技能-->
+						<div class="row">
+							<div class="col-md-3">
+								<span class="text-muted">rap</span>
+							</div>
+							<div class="col-md-9">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped active" style="width: 85%;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--联系面板-->
+						<div class="panel panel-primary">
+							<div class="panel-heading">联系我</div>
+							<div class="panel-body">
+								<div class="form-horizontal">
+									<div class="form-group">
+										<label class="col-sm-4 control-label" for="inputemail">电子邮箱</label>
+										<div class="col-sm-8">
+											<input id="inputemail" type="email" class="form-control" placeholder="email" />
+										</div>
+									</div>
+									<!--姓名-->
+									<div class="form-group">
+										<label class="col-sm-4 control-label" for="inputename">姓名</label>
+										<div class="col-sm-8">
+											<input id="inputname" type="email" class="form-control" placeholder="name" />
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-offset-4 col-sm-8">
+											<button type="submit" class="btn btn-default pull-right">发送</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!--右侧-->
+				<div class="col-md-9">
+					<!--个人经历-->
+					<div class="jumbotron">
+						<p class="text-right small">参加了好多前端开发岗位<br />
+						熟练掌握<code>HTML,Bootstrap,jQuery,等技术。</code><br />
+						爱好程序设计，喜欢开发自己喜欢的产品。<br />
+						有着良好的编程习惯，以及程序错误控制和解决能力。<br />
+						</p>
+					</div>	
+					<!--面板组-->
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-primary">
+							<div class="panel-heading">联系我</div>
+							<div class="panel-body">
+								<div class="col-sm-4">
+									<div class="thumbnail">
+										<img src="img/me.png" />
+										<div class="caption text-center">
+											<p><a>网页模板</a></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="thumbnail">
+										<img src="img/me.png" />
+										<div class="caption text-center">
+											<p><a>网页模板</a></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="thumbnail">
+										<img src="img/me.png"/>
+										<div class="caption text-center">
+											<p><a>网页模板</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--工作经验：-->
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							工作经验</div>
+							<ul class="list-group">
+								<li class="list-group-item">
+									<div class="row">
+										<div class="col-sm-4">2016-2017</div>
+										<div class="col-sm-4">腾讯公司</div>
+										<div class="col-sm-4">前端工程师</div>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="row">
+										<div class="col-sm-4">2017-2018</div>
+										<div class="col-sm-4">阿里巴巴</div>
+										<div class="col-sm-4">前端工程师</div>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="row">
+										<div class="col-sm-4">2018-2019</div>
+										<div class="col-sm-4">字节跳动</div>
+										<div class="col-sm-4">前端工程师</div>
+									</div>
+								</li>
+							</ul>
+						
+					</div>
+					<!--教育背景-->
+					<div class="panel panel-info">
+						<div class="panel-heading">教育背景</div>
+						<div class="panel-body">
+							<table class="table table-striped">
+								<tr>
+									<th>时间：2019-2021</th>
+									<th>学校：新乡学院</th>
+									<th>专业：软件工程</th>
+								</tr>
+								<tr>
+									<th>时间：2019-2021</th>
+									<th>学校：新乡学院</th>
+									<th>专业：软件工程</th>
+								</tr>
+								<tr>
+									<th>时间：2019-2021</th>
+									<th>学校：新乡学院</th>
+									<th>专业：软件工程</th>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				
+					
+					
+				</div>
+				<!--更多-->
+					
+					<div class="alert alert-info" role="alert">
+						<div class="row">
+							<div class="col-md-2">
+								<button class="btn btn-info">更多信息
+									<span class="badge">10+</span></button>
+							</div>
+							<div class="col-md-10">
+								<button type="button" class="close" data-dismiss="alert" 
+								aria-label="Close"><span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+							
+					</div>
+					
+					
+					
+					</div>
+			 </div>
+		</div>
+		
+	</body>
+</html>
